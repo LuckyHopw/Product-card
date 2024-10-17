@@ -21,3 +21,46 @@ body {
     padding: 20px;
     position: relative;
 }
+
+.badge {
+    background-color: red;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.content {
+    display: flex;
+}
+
+.image img {
+    width: 250px;
+    height: auto;
+}
+
+.info {
+    padding: 0 20px;
+    width: 350px;
+}
+
+info h1 {
+    font-size: 20px;
+    margin-bottom: 10px;
+
+}
+
+.product-price {
+    display: flex;
+    align-items: baseline;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
